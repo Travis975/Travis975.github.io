@@ -33,7 +33,6 @@ async function fetchMovieDataMakeCards(url) {
 
         // Parse JSON response and set variable
         const moviesDataJSON = await movieData.json();
-        // let divContainer;
 
         // Check to see what url then set the divContainer accordingly then make the movie cards
         checkMovieCategory(url);
